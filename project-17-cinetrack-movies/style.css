@@ -1,0 +1,27 @@
+body {
+    background-color: #0f172a;
+    color: #f8fafc;
+    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+}
+
+.hero-section {
+    background: linear-gradient(135deg, #1e1b4b, #311042);
+    padding: 60px 0;
+    border-bottom: 1px solid #334155;
+}
+
+.movie-card {
+    background-color: #1e293b;
+    border: 1px solid #334155;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.movie-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+.poster-img {
+    height: 360px;
+    object-fit: cover;
+}

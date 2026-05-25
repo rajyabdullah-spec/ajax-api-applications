@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CosmosExplorers - NASA Dashboard</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container min-vh-100 d-flex flex-column justify-content-center align-items-center py-5">
+        
+        <div class="card control-card p-4 shadow-lg text-center mb-4 w-100" style="max-width: 650px;">
+            <h1 class="fw-bold mb-2 text-warning">🌌 CosmosExplorers</h1>
+            <p class="text-light fw-medium">Streaming real-time astronomical datasets directly from NASA production servers.</p>
+            
+            <form id="nasaForm" class="row g-2 mt-3 justify-content-center">
+                <div class="col-sm-8">
+                    <input type="date" id="dateInput" class="form-control form-control-lg bg-dark text-white border-secondary" required>
+                </div>
+                <div class="col-sm-4">
+                    <button type="submit" class="btn btn-warning btn-lg fw-bold w-100">Explore Date</button>
+                </div>
+            </form>
+        </div>
+
+        <div id="nasaSpinner" class="spinner-border text-warning my-4 d-none" style="width: 3rem; height: 3rem;" role="status"></div>
+
+        <div id="nasaDisplayCard" class="card space-card shadow-lg text-white d-none w-100" style="max-width: 750px;">
+            <div id="mediaContainer"></div>
+            
+            <div class="card-body p-4">
+                <div class="d-flex justify-content-between align-items-center mb-2">
+                    <h3 id="contentTitle" class="fw-bold text-warning m-0">Astronomy Title</h3>
+                    <span id="contentDate" class="badge bg-secondary">2026-05-25</span>
+                </div>
+                <hr class="border-secondary">
+                <p id="contentExplanation" class="card-text text-light-emphasis leading-relaxed text-justify"></p>
+            </div>
+        </div>
+
+        <div id="nasaError" class="alert alert-danger d-none text-center w-100" style="max-width: 650px;" role="alert"></div>
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
