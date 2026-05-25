@@ -20,11 +20,11 @@ The repository is structured using rigorous **URL-safe naming conventions** (`Ke
 
 | Track Number | Application Identifier | Integrated Target Endpoint (API) | Core Architectural Paradigm | Deployment Direct Link |
 | :--- | :--- | :--- | :--- | :--- |
-| **Project 16** | `project-16-tenor-gif` | **Tenor API** (GIF Storage Services) | DOM Asset Streaming & Dynamic Key-Event Hooks | [Launch App](./project-16-tenor-gif/) |
-| **Project 17** | `project-17-cinetrack-movies` | **OMDb API** (Global Movie Registry) | Security Sandboxing, Error Trapping (`try...catch`) | [Launch App](./project-17-cinetrack-movies/) |
-| **Project 18** | `project-18-skycast-weather` | **OpenWeatherMap API** (Live Weather) | Quantitative Unit Controls (`metric`) & UI State Toggling | [Launch App](./project-18-skycast-weather/) |
-| **Project 19** | `project-19-storecraft-ecommerce` | **FakeStoreAPI** (Open Inventory Pipeline) | Full Global State Tracking (Add-to-Cart Real-Time Memory Counter) & Local Array In-Memory Filter Search Queries | [Launch App](./project-19-storecraft-ecommerce/) |
-| **Project 20** | `project-20-nasa-explorers` | **NASA APOD API** (Planetary Data Layer) | Conditional Polymorphic UI Generation (Dynamic nodes for Image vs Responsive Bootstrap `iframe` for YouTube payloads) | [Launch App](./project-20-nasa-explorers/) |
+| **Project 16** | `project-16-tenor-gif` | **Tenor API** (GIF Storage Services) | DOM Asset Streaming & Dynamic Key-Event Hooks | [Launch App](https://rajyabdullah-spec.github.io/ajax-api-applications/project-16-tenor-gif/) |
+| **Project 17** | `project-17-cinetrack-movies` | **OMDb API** (Global Movie Registry) | Security Sandboxing, Error Trapping (`try...catch`) | [Launch App](https://rajyabdullah-spec.github.io/ajax-api-applications/project-17-cinetrack-movies/) |
+| **Project 18** | `project-18-skycast-weather` | **OpenWeatherMap API** (Live Weather) | Quantitative Unit Controls (`metric`) & UI State Toggling | [Launch App](https://rajyabdullah-spec.github.io/ajax-api-applications/project-18-skycast-weather/) |
+| **Project 19** | `project-19-storecraft-ecommerce` | **FakeStoreAPI** (Open Inventory Pipeline) | Full Global State Tracking & Local Array In-Memory Filter Search Queries | [Launch App](https://rajyabdullah-spec.github.io/ajax-api-applications/project-19-storecraft-ecommerce/) |
+| **Project 20** | `project-20-nasa-explorers` | **NASA APOD API** (Planetary Data Layer) | Conditional Polymorphic UI Generation (Dynamic nodes for Image vs Responsive Bootstrap `iframe` for YouTube payloads) | [Launch App](https://rajyabdullah-spec.github.io/ajax-api-applications/project-20-nasa-explorers/) |
 
 ---
 
